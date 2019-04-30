@@ -14,6 +14,34 @@ a {
     text-decoration: none;
 }
 
+#overlay {
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+#bigCircle {
+    height: 90vh;
+    width: 90vh;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+    border-radius: 50%;
+    visibility: hidden;
+}
+
+.textBlurb {
+    visibility: hidden;
+    position: absolute;
+    z-index: 5;
+}
+
 .circle {
     height: 15vh;
     width: 15vh;
@@ -45,6 +73,23 @@ a {
 @keyframes enlarge {
   from {height: 17vh; width: 17vh;} 
   to {height: 30vh; width: 30vh;} 
+}
+
+.fadeIn {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1s;
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: 0} 
+  to {opacity: 0.7}
+}
+
+@keyframes fade {
+  from {opacity: 0} 
+  to {opacity: 0.7}
 }
 
 text {
