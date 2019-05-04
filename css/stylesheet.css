@@ -37,9 +37,23 @@ a {
 }
 
 .textBlurb {
-    visibility: hidden;
     position: absolute;
     z-index: 5;
+    color: white;
+    top: 14%;
+    margin-left: 13vh;
+    width: 70vh;
+}
+
+.textBlurb h3 {
+    font-size: 52px;
+    font-weight: inherit;
+    margin-bottom: 20px;
+}
+
+.textBlurb text {
+    font-size: 22px;
+    font-weight: inherit;
 }
 
 .circle {
@@ -90,8 +104,4 @@ a {
 @keyframes fade {
   from {opacity: 0} 
   to {opacity: 0.7}
-}
-
-text {
-    visibility: hidden;
 }
