@@ -64,7 +64,7 @@ a {
     display: inline-block;
     border-radius: 50%;
     border-style: solid;
-    margin: 5vh 9vh;
+    margin: 5vh 0vh 5vh 6vh;
 }
 
 .circle:hover {
