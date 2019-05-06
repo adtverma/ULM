@@ -66,7 +66,10 @@ function showBlurb(i) {
             break;
         case 7:
             header = "Workshops";
-            txt = "Join us for a demonstrative session for our courses in New York City!"
+            txt = "Join us for a demonstrative session for our courses in New York City! </br> \
+                1. Economics of Misinformation- March 18th, 2019 (11:30-2pm) Tony Hall (BBC Finance Reporter) and Giorgia Lupi (Data Visualiser and Design Researcher)</br> \
+                2. Anonimity and Gender Erasure- May 20th, 2019 (6-8pm) Durga Chew Bose (Writer) and Rupi Kaur (Poet)</br> \
+                3. A Conversation between the Visual and Discursive: Tavi Gevinson (Youth Media Icon) and Gui Bonsieppe (Designer and Writer)";
             break;
     }
     
